@@ -1,5 +1,7 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
   return (
@@ -11,7 +13,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-          <div>site em construção</div>
+          <img src="/logo.png" alt="Haag Tech" width="300px" heith="300px" />
+          <div><font color="silver">site em construção</font></div>
       </main>
 
 
