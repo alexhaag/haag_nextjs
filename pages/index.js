@@ -10,6 +10,7 @@ export default function Home() {
         <title>Haag Tech</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
+        <script src="../public/vendor/chatwebsite.js" defer></script>
       </Head>
 
       <main className={styles.main}>
