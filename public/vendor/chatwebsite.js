@@ -1,17 +1,13 @@
 
+  import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.1.13/dist/web.js'
 
-(function(d,t) {
-  var BASE_URL="https://chat.haag.com.br";
-  var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-  g.src=BASE_URL+"/packs/js/sdk.js";
-  g.defer = true;
-  g.async = true;
-  s.parentNode.insertBefore(g,s);
-  g.onload=function(){
-    window.chatwootSDK.run({
-      websiteToken: 'rBaHJh6nvyuYLHrDAwHwZ8EJ',
-      baseUrl: BASE_URL
-    })
-  }
-})(document,"script");
+  Typebot.initBubble({
+    typebot: "haag",
+    apiHost: "https://bot.haag.com.br",
+    theme: {
+      button: { backgroundColor: "#0042DA" },
+      chatWindow: { backgroundColor: "#ffffff" },
+    },
+  });
+
 
