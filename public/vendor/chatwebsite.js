@@ -5,7 +5,8 @@
     typebot: "haag",
     apiHost: "https://bot.haag.com.br",
     theme: {
-      button: { backgroundColor: "#0042DA" },
+      //button: { backgroundColor: "#0042DA" },
+      button: { backgroundColor: "#FF0000" },
       chatWindow: { backgroundColor: "#ffffff" },
     },
   });
