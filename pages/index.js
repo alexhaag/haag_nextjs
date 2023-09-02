@@ -16,7 +16,7 @@ export default function Home() {
 
       <main className={styles.main}>
           <img src="/logo.png" alt="Haag Tech" width="300px" heith="300px" />
-          <div><font color="silver">site em construção</font></div>
+          <div><font color="silver">Site em construção</font></div>
       </main>
 
 
